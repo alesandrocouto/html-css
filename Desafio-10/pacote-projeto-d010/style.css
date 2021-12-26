@@ -1,0 +1,182 @@
+
+@charset 'UTF-8";
+
+
+
+@font-face {
+    font-family: 'cabecalho';
+    src: url('fontes/_idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #84E1AD;
+    padding-bottom: 20px;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom,#3CD983, #2e975c, #195A36);
+    padding: 20px;
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-bottom: 1px;
+    margin-left: -8px;
+    color: white;
+}
+
+nav > a {
+    margin-right: 10px;
+}
+
+nav > a:hover {
+    background-color: #44a570;
+}
+
+article > p {
+    color: #154b2d;
+  
+}
+
+#link > a {
+    color: #154b2d;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.219), white);
+}
+
+header > p {
+    text-align: center;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+a {
+    padding: 5px;
+    color: white;
+}  
+
+#droids {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -400px;
+}
+
+#p_versao {
+    text-align: center;
+}
+
+#imgBug {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: 0px;
+    margin-left: -150px;
+}
+
+
+div#video {
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    text-align: center;
+    background-color: #1A5C38;
+}
+
+div#tituloLista {
+    background-color: #2FA866;
+    padding-bottom: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    padding-top: 40px;
+    color: white;
+}
+
+div#lista {
+    height: 300px;
+    background-color: #C5EBD6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+div#lista > p {
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 10px;
+    color: #154b2d;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.lista {
+    display: inline-block;
+    height: 300px;
+    background-color: #C5EBD6;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    padding-bottom: 110px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.div-esquerda {
+    padding-top: 30px;
+    float: left;
+    font-weight: bold;
+}
+
+.div-direita {
+    padding-top: 42px;
+    margin-right: 300px;
+    float: right;
+    font-weight: bold;
+}
+
+.p_inferior1 > p {
+    margin-top: 164px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #154b2d;
+    font-weight: bold;
+}
+
+.p_inferior2 > p {
+    margin-top: -24px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #154b2d;
+    font-weight: bold;
+    
+} 
+
+
+.p_inferior3 > p {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #154b2d;
+    font-weight: bold;
+}
+
+.rodape > P {
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+

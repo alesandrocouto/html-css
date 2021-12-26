@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* -Tudo que em HTML é 'ID' em CSS vira '#' .  (Só pode um elemento!)
+   -Tudo que em HTML é 'CLASS' em CSS vira '.' (PONTO). (pode vários elementos) */
+
+body {
+    background-color: #91FAC2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #223B2E;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #2d503e;
+    color: white;
+}
+
+h2 {
+    color: #477A5F;
+}
+
+.basico {
+    color: #797e7d;
+}
+
+.intermediario {
+    color: #4a502d;
+}
+
+.avancado {
+    color: #502d2d;
+}
+
+.destaque {
+    background-color: rgba(201, 201, 89, 0.349);
+}
